@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>To Do App</title>
+  <script src="./script.js" defer></script>
+  <link type="text/css" rel="stylesheet" href="./style.css" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="logo">
+        <h1><span class="blue">T</span><span class="red">o</span><span class="yellow">D</span><span class="blue">o</span> List
+        </h1>
+      </div>
+
+      <ul class="menu">
+        <li>
+          <a onclick="sortByNumber()">
+            <i class="material-icons">sort</i>
+          </a>
+        </li>
+        <li>
+          <a onclick="sortByName()">
+            <i class="material-icons">text_format</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="task-control">
+
+      <button onclick="add()"><i class="material-icons">add_circle</i></button>
+      <input id="inputTask" type="text" placeholder="Input task">
+
+      <button onclick="remove()"><i class="material-icons">delete</i></button>
+      <input id="inputRemove" type="text" placeholder="Input number">
+
+      <button onclick="toArchive()"><i class="material-icons">done</i></button>
+      <input id="inputDone" type="text" placeholder="Input number">
+
+    </div>
+
+    <div class="activeTasks">
+      <table>
+        <tr>
+          <th colspan="2">
+            <h1>Active<i class="material-icons">whatshot</i></h1>
+
+          </th>
+        </tr>
+        <tbody align="center" id='activeTasks'>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="archiveTasks">
+    <div class="container">
+      <table>
+        <tr>
+          <th colspan="3">
+            <h1>Archive<i class="material-icons">unarchive</i></h1</th>
+        </tr>
+        <tbody align="center" id='archiveTasks'>
+      </table>
+    </div>
+  </div>
+
+</body>
+
+</html>

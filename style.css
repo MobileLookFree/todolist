@@ -1,0 +1,145 @@
+@font-face{
+    font-family: 'Product Sans Regular';
+    font-weight: 400;
+    src: url("./product-sans/ProductSansRegular.ttf") format("ttf"); 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans';
+}
+
+.container {
+  min-width: 320px;
+  width: 60%;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.logo{
+  float: left;
+}
+
+.header{
+  margin: 0;
+  font-size: 16px;
+  height: 64px;
+  color: #424242;
+}
+
+.blue{
+    color: #4285f4;
+}
+
+.red{
+    color: #ea4335;
+}
+
+.yellow{
+    color: #fbbc05;
+}
+
+h1{
+    margin: 0;
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.menu{
+    padding-top: 8px;
+    float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+a{
+  color: #424242;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+a:hover{
+  color: #3F51B5;
+}
+
+.task-control{
+    padding-bottom: 10px;
+}
+
+button{
+    height: 64px;
+    width: 64px;
+    color: #424242;
+    text-decoration: none;
+    border: 0px;
+    background-color: transparent;
+    outline: none;
+    z-index: 100;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #3F51B5;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15%;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    color: #424242;
+    background: white;
+    border: 1px solid rgba(44, 62, 80, 0.10); 
+    box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.10);
+    border-radius: 40px;
+    box-sizing: border-box;
+    outline: none;
+    display: inline-block;
+    position: relative;
+}
+
+table{
+    color: #424242;
+    text-align: left;
+    font-family: 'Product Sans';
+    font-size: 16px;
+    border-collapse: collapse;
+    border-style: none;
+}
+
+td{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 10px;
+    border-style: none;
+}
+
+.activeTasks{
+    min-height: 200px;
+}
+
+.archiveTasks{
+    background-color: #FAFAFA;
+    position: absolute;
+    width: 100%;
+    min-height: 500px;
+}
