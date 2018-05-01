@@ -4,10 +4,18 @@
     src: url("./product-sans/ProductSansRegular.ttf") format("ttf"); 
 }
 
+@font-face {
+    font-family: 'product_sansrus_by_lyajkaRg';
+    src: url('./product-sans/10916-webfont.woff2') format('woff2'),
+         url('./product-sans/10916-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Product Sans';
+    font-family: 'product_sansrus_by_lyajkaRg';
 }
 
 .container {
@@ -119,7 +127,7 @@ input{
 table{
     color: #424242;
     text-align: left;
-    font-family: 'Product Sans';
+    font-family: 'product_sansrus_by_lyajkaRg';
     font-size: 16px;
     border-collapse: collapse;
     border-style: none;
