@@ -20,7 +20,7 @@ body{
 
 .container {
   min-width: 320px;
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   max-width: 1240px;
 }
@@ -88,8 +88,8 @@ a:hover{
 }
 
 button{
-    height: 64px;
-    width: 64px;
+    height: 44px;
+    width: 44px;
     color: #424242;
     text-decoration: none;
     border: 0px;
@@ -109,7 +109,7 @@ input{
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding-left: 15%;
+    padding-left: 50px;
     height: 40px;
     width: 100%;
     font-size: 16px;
@@ -120,7 +120,7 @@ input{
     border-radius: 40px;
     box-sizing: border-box;
     outline: none;
-    display: inline-block;
+    display: block;
     position: relative;
 }
 
@@ -149,5 +149,5 @@ td{
     background-color: #FAFAFA;
     position: absolute;
     width: 100%;
-    min-height: 500px;
+    min-height: 600px;
 }
