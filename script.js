@@ -33,9 +33,8 @@ document.getElementById('inputRemove').addEventListener('keydown', function (key
 
 //Отправка задачи в архив по нажатию Enter
 document.getElementById('inputDone').addEventListener('keydown', function (keyboard) { //ввод номера архивируемой задачи по нажатию Enter
-    var value = this.value;
-    if (keyboard.code === 'Enter' && value) {
-        toArchive(value);
+    if (keyboard.code === 'Enter') {
+        toArchive();
     }
 });
 
